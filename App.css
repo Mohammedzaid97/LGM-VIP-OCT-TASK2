@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 14%, rgba(255,178,0,1) 85%);
+  background-size: 6000% 5000%;
+  background-repeat: no-repeat;
+  animation: rot 2s cubic-bezier(.68, -.57, .26, 1.65) infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 60%;
+  }
+  50% {
+    background-position: 90% 50%;
+  }
+  100% {
+    background-position: 10% 50%;
+  }
+}
+
+.logo {
+  margin-top: -15px;
+}

@@ -1,0 +1,79 @@
+button {
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(
+      rgba(247, 98, 0, 0.97),
+      rgb(176, 191, 63)
+    );
+    color: black;
+    padding: 12px;
+}
+  
+button:hover {
+  transition: 200ms;
+  transform: scale(1.1);
+}
+  
+button:focus {
+  outline: none;
+}
+  
+nav {
+  color: rgb(176, 191, 63);
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 1);
+}
+  
+.loader {
+  margin: 0 auto;
+}
+  
+.avatar {
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+  
+#main {
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
+}
+  
+#main img {
+  animation-delay: 8s;
+}
+  
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-color: rgba(0, 0, 0, 1);
+  border-radius: 20px;
+  background:linear-gradient(80deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 14%, rgba(255,178,0,1) 85%); ;
+  box-shadow: 10px 10px 5px #aaaaaa,
+             5px 10px inset;
+}
+  
+.profile:hover {
+  transition: 600ms;
+  box-shadow: 30px 20px 50px rgba(0, 0, 0, 1);
+}
+  
+.name {
+  font-family: cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: rgb(34, 242, 41);
+  font-size: 35px;
+  font-weight: bold;
+}
+  
+.email {
+  background-color: #f8f8ff;
+  border-radius: 40px;
+  font-family: cursive;
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
